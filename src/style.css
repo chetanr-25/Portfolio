@@ -374,7 +374,7 @@ nav ul li:hover {
 .technical,
 .professional {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 30px;
   max-width: 1100px;
   margin-bottom: 80px;
@@ -389,8 +389,8 @@ nav ul li:hover {
   margin-bottom: -10px;
   
 
-  justify-self: start;     /* 🔥 KEY FIX */
-  text-align: left;        /* 🔥 KEY FIX */
+  justify-self: start;     
+  text-align: left;        
 }
 
 .card-skill {
